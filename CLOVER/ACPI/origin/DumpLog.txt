@@ -1,0 +1,144 @@
+8:141  3:339  Found UEFI Acpi 2.0 RSDP at 5B553000
+8:141  0:000  Saving ACPI tables from RSDP 5B553000 to EFI\CLOVER\ACPI\origin ...
+8:141  0:000   5B553000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+8:157  0:015    (Xsdt: 5B5530C0, Rsdt: 5B553028)
+8:157  0:000    5B5530C0: 'XSDT', 'ALIENWRE', Rev: 1, Len: 252 -> XSDT.aml
+8:173  0:016    5B553028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 144 -> RSDT.aml
+8:188  0:014    Tables in Xsdt: 27
+8:188  0:000    0. 5B596350: 'FACP', 'ALIENWRE', Rev: 6, Len: 276 -> FACP.aml
+8:201  0:013        (Dsdt: 5B553248, Facs: 5BA55100, XDsdt: 5B553248, XFacs: 0)
+8:201  0:000        5B553248: 'DSDT', 'ALIENWRE', Rev: 2, Len: 274695 -> DSDT.aml
+8:232  0:031        5BA55100: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+8:247  0:014    1. 5B596468: 'APIC', 'ALIENWRE', Rev: 4, Len: 244 -> APIC.aml
+8:261  0:013    2. 5B596560: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68 -> FPDT.aml
+8:275  0:014    3. 5B5965A8: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156 -> FIDT.aml
+8:290  0:015    4. 5B596648: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60 -> MCFG.aml
+8:307  0:016    5. 5B596688: 'SSDT', 'SataTabl', Rev: 1, Len: 1061 -> SSDT-0-SataTabl.aml
+8:322  0:014    6. 5B596AB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 19132 -> SSDT-1-DptfTabl.aml
+8:337  0:014    7. 5B59B570: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-2-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+8:351  0:014        * 5B507418: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1470  53 53 44 54 BE 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1470 -> SSDT-x2_0-Cpu0Ist.aml
+8:365  0:013        * 5B4FF018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x2_1-ApIst.aml
+8:379  0:014        * 5B4FE018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x2_2-Cpu0Cst.aml
+8:395  0:015        * 5B500A98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x2_3-ApCst.aml
+8:411  0:016        * 5B507A98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 266  53 53 44 54 0A 01 00 00 02 9F 50 6D 52 65 66 00 Internal length = 266 -> SSDT-x2_4-Cpu0Hwp.aml
+8:425  0:014        * 5B4FE698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x2_5-ApHwp.aml
+8:441  0:015        * 5B500018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x2_6-HwpLvt.aml
+8:455  0:014  
+8:455  0:000    8. 5B59CD48: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374 -> SLIC.aml
+8:469  0:013    9. 5B59CEC0: 'BOOT', 'ALIENWRE', Rev: 1, Len: 40 -> BOOT.aml
+8:484  0:015    10. 5B59CEE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743 -> SSDT-3-SaSsdt.aml
+8:500  0:015    11. 5B5A00B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 8301 -> SSDT-4-PegSsdt.aml
+8:517  0:017    12. 5B5A2120: 'HPET', 'ALIENWRE', Rev: 1, Len: 56 -> HPET.aml
+8:531  0:014    13. 5B5A2158: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998 -> SSDT-5-Ther_Rvp.aml
+8:546  0:014    14. 5B5A30F8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10865 -> SSDT-6-xh_cfhd4.aml
+8:562  0:015    15. 5B5A5B70: 'UEFI', 'ALIENWRE', Rev: 1, Len: 72 -> UEFI.aml
+8:576  0:014    16. 5B5A5BB8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85 -> MSDM.aml
+8:592  0:015    17. 5B5A5C10: 'LPIT', 'ALIENWRE', Rev: 1, Len: 92 -> LPIT.aml
+8:611  0:018    18. 5B5A5C70: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-7-PtidDevc.aml
+8:624  0:013    19. 5B5A8450: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094 -> SSDT-8-TbtTypeC.aml
+8:639  0:014    20. 5B5A9450: 'DBGP', 'ALIENWRE', Rev: 1, Len: 52 -> DBGP.aml
+8:655  0:015    21. 5B5A9488: 'DBG2', 'ALIENWRE', Rev: 0, Len: 84 -> DBG2.aml
+8:670  0:015    22. 5B5A94E0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6428 -> SSDT-9-UsbCTabl.aml
+8:685  0:014    23. 5B5AAE00: 'SSDT', 'OemAti', Rev: 1, Len: 3109 -> SSDT-10-OemAti.aml
+8:701  0:016    24. 5B5ABA28: 'SSDT', 'OemNvT', Rev: 1, Len: 23151 -> SSDT-11-OemNvT.aml
+8:718  0:017    25. 5B5B1498: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56 -> BGRT.aml
+8:732  0:013    26. 5B5B14D0: 'WSMT', 'ALIENWRE', Rev: 1, Len: 40 -> WSMT.aml
+8:747  0:014    Tables in Rsdt: 27
+8:747  0:000    0. 5B5531C0: 'FACP', 'ALIENWRE', Rev: 2, Len: 132 -> RSDT-FACP.aml
+8:762  0:014        (Dsdt: 5B553248, Facs: 5BA550C0)
+8:762  0:000        5B553248: 'DSDT', 'ALIENWRE', Rev: 2, Len: 274695
+8:765  0:002        5BA550C0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+8:780  0:015    1. 5B596468: 'APIC', 'ALIENWRE', Rev: 4, Len: 244
+8:780  0:000    2. 5B596560: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+8:780  0:000    3. 5B5965A8: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+8:780  0:000    4. 5B596648: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+8:780  0:000    5. 5B596688: 'SSDT', 'SataTabl', Rev: 1, Len: 1061
+8:780  0:000    6. 5B596AB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 19132
+8:780  0:000    7. 5B59B570: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+8:780  0:000    8. 5B59CD48: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+8:780  0:000    9. 5B59CEC0: 'BOOT', 'ALIENWRE', Rev: 1, Len: 40
+8:780  0:000    10. 5B59CEE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+8:780  0:000    11. 5B5A00B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 8301
+8:780  0:000    12. 5B5A2120: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+8:780  0:000    13. 5B5A2158: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+8:780  0:000    14. 5B5A30F8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10865
+8:780  0:000    15. 5B5A5B70: 'UEFI', 'ALIENWRE', Rev: 1, Len: 72
+8:780  0:000    16. 5B5A5BB8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+8:780  0:000    17. 5B5A5C10: 'LPIT', 'ALIENWRE', Rev: 1, Len: 92
+8:780  0:000    18. 5B5A5C70: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+8:780  0:000    19. 5B5A8450: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+8:780  0:000    20. 5B5A9450: 'DBGP', 'ALIENWRE', Rev: 1, Len: 52
+8:780  0:000    21. 5B5A9488: 'DBG2', 'ALIENWRE', Rev: 0, Len: 84
+8:780  0:000    22. 5B5A94E0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6428
+8:780  0:000    23. 5B5AAE00: 'SSDT', 'OemAti', Rev: 1, Len: 3109
+8:780  0:000    24. 5B5ABA28: 'SSDT', 'OemNvT', Rev: 1, Len: 23151
+8:780  0:000    25. 5B5B1498: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+8:780  0:000    26. 5B5B14D0: 'WSMT', 'ALIENWRE', Rev: 1, Len: 40
+8:780  0:000  Found UEFI Acpi 1.0 RSDP at 5B553000
+8:780  0:000  Printing ACPI tables from RSDP 5B553000 ...
+8:780  0:000   5B553000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:780  0:000    (Xsdt: 5B5530C0, Rsdt: 5B553028)
+8:780  0:000    5B5530C0: 'XSDT', 'ALIENWRE', Rev: 1, Len: 252
+8:780  0:000    5B553028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 144
+8:780  0:000    Tables in Xsdt: 27
+8:780  0:000    0. 5B596350: 'FACP', 'ALIENWRE', Rev: 6, Len: 276
+8:780  0:000        (Dsdt: 5B553248, Facs: 5BA55100, XDsdt: 5B553248, XFacs: 0)
+8:780  0:000        5B553248: 'DSDT', 'ALIENWRE', Rev: 2, Len: 274695
+8:783  0:003        5BA55100: 'FACS', Ver: 2, Len: 64
+8:783  0:000    1. 5B596468: 'APIC', 'ALIENWRE', Rev: 4, Len: 244
+8:783  0:000    2. 5B596560: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+8:783  0:000    3. 5B5965A8: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+8:783  0:000    4. 5B596648: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+8:783  0:000    5. 5B596688: 'SSDT', 'SataTabl', Rev: 1, Len: 1061
+8:783  0:000    6. 5B596AB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 19132
+8:783  0:000    7. 5B59B570: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+8:783  0:000    8. 5B59CD48: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+8:783  0:000    9. 5B59CEC0: 'BOOT', 'ALIENWRE', Rev: 1, Len: 40
+8:783  0:000    10. 5B59CEE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+8:783  0:000    11. 5B5A00B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 8301
+8:783  0:000    12. 5B5A2120: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+8:783  0:000    13. 5B5A2158: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+8:783  0:000    14. 5B5A30F8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10865
+8:783  0:000    15. 5B5A5B70: 'UEFI', 'ALIENWRE', Rev: 1, Len: 72
+8:783  0:000    16. 5B5A5BB8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+8:783  0:000    17. 5B5A5C10: 'LPIT', 'ALIENWRE', Rev: 1, Len: 92
+8:783  0:000    18. 5B5A5C70: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+8:783  0:000    19. 5B5A8450: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+8:783  0:000    20. 5B5A9450: 'DBGP', 'ALIENWRE', Rev: 1, Len: 52
+8:783  0:000    21. 5B5A9488: 'DBG2', 'ALIENWRE', Rev: 0, Len: 84
+8:783  0:000    22. 5B5A94E0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6428
+8:783  0:000    23. 5B5AAE00: 'SSDT', 'OemAti', Rev: 1, Len: 3109
+8:783  0:000    24. 5B5ABA28: 'SSDT', 'OemNvT', Rev: 1, Len: 23151
+8:783  0:000    25. 5B5B1498: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+8:783  0:000    26. 5B5B14D0: 'WSMT', 'ALIENWRE', Rev: 1, Len: 40
+8:783  0:000    Tables in Rsdt: 27
+8:783  0:000    0. 5B5531C0: 'FACP', 'ALIENWRE', Rev: 2, Len: 132
+8:783  0:000        (Dsdt: 5B553248, Facs: 5BA550C0)
+8:783  0:000        5B553248: 'DSDT', 'ALIENWRE', Rev: 2, Len: 274695
+8:786  0:002        5BA550C0: 'FACS', Ver: 0, Len: 64
+8:786  0:000    1. 5B596468: 'APIC', 'ALIENWRE', Rev: 4, Len: 244
+8:786  0:000    2. 5B596560: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+8:786  0:000    3. 5B5965A8: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+8:786  0:000    4. 5B596648: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+8:786  0:000    5. 5B596688: 'SSDT', 'SataTabl', Rev: 1, Len: 1061
+8:786  0:000    6. 5B596AB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 19132
+8:786  0:000    7. 5B59B570: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+8:786  0:000    8. 5B59CD48: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+8:786  0:000    9. 5B59CEC0: 'BOOT', 'ALIENWRE', Rev: 1, Len: 40
+8:786  0:000    10. 5B59CEE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+8:786  0:000    11. 5B5A00B0: 'SSDT', 'PegSsdt', Rev: 2, Len: 8301
+8:786  0:000    12. 5B5A2120: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+8:786  0:000    13. 5B5A2158: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+8:786  0:000    14. 5B5A30F8: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10865
+8:786  0:000    15. 5B5A5B70: 'UEFI', 'ALIENWRE', Rev: 1, Len: 72
+8:786  0:000    16. 5B5A5BB8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+8:786  0:000    17. 5B5A5C10: 'LPIT', 'ALIENWRE', Rev: 1, Len: 92
+8:786  0:000    18. 5B5A5C70: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+8:786  0:000    19. 5B5A8450: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+8:786  0:000    20. 5B5A9450: 'DBGP', 'ALIENWRE', Rev: 1, Len: 52
+8:786  0:000    21. 5B5A9488: 'DBG2', 'ALIENWRE', Rev: 0, Len: 84
+8:786  0:000    22. 5B5A94E0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6428
+8:786  0:000    23. 5B5AAE00: 'SSDT', 'OemAti', Rev: 1, Len: 3109
+8:786  0:000    24. 5B5ABA28: 'SSDT', 'OemNvT', Rev: 1, Len: 23151
+8:786  0:000    25. 5B5B1498: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+8:786  0:000    26. 5B5B14D0: 'WSMT', 'ALIENWRE', Rev: 1, Len: 40
